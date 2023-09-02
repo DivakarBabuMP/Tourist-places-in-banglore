@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p{
+            border: 2px solid rgb(2, 50, 2);
+            border-radius: 10px;
+            padding: 20px;
+            background-color:  rgb(166, 229, 118)
+        }
+        /*img{
+            border:5px solid black;
+        }*/
+       /* body{
+            background-image:url(bengaluru.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }*/
+        /*.parks1{
+            margin: 10px;
+        }*/
+        .shopping1{
+            border: 1px solid black
+            
+        }
+        .aside{
+            width:50%;
+            padding-left:15px;
+            margin-left:10px;
+            float:right;
+            background-color:rgb(166, 229, 118);
+            height:100px;
+            border-radius:10px;
+            padding:20px;
+        }
+        p+a{
+            text-decoration: none;
+            padding: 5px 5px;
+            background-color: black;
+            color:white;
+        }
+        a:visited{
+            color:goldenrod;
+        }
+        .light-mode{
+            color:black;
+            background-color:white;
+            border-color:black;
+            border-radius: 5px;
+        }
+        .dark-mode{
+            color: white;
+            background-color:black;
+            border-color: white;
+            border-radius:5px;
+            padding:6px;
+        }
+        
+        .darkmode{
+            color:white;
+            background-color:black;
+        }
+        
+    </style>
+    <script type="text/javascript">
+        
+        function darkmode(){
+            var element= document.body;
+            element.classList.toggle("darkmode")
+        }
+    </script>
+</head>
+<body>
+    <button class="dark-mode" onclick="darkmode()"> light/dark mode</button>
+    <h1 style="color:green ;" align="center">tourism in banglore</h1>
+    <p class="p">Bangalore is the capital city of the southern Indian state of Karnataka. It is the seventh largest city in India. It is also known as the Garden City because of its many beautiful gardens and parks. The nandi hills in Bangalore is not to be missed by the pious. Though the origin of Bangalore is ancient, the present-day city was founded in the 16th century and has since continued to be an important administrative center. Because of the high concentration of IT industry, it also called the Silicon Valley of India. There are a number of good hotels in Bangalore like the Ashoka Hotel in Bangalore that make your stay in the Garden city comfortable.</p>
+    <h3><b>Location</b></h3>
+    
+    <p class="p">Bangalore city is located in the southern part of the state of Karnataka, in the southern region of India. It is 3,113 feet (949 m) above sea level, on top of a ridge in the Karnataka plateau. Bangalore is 998 km from Mumbai (Bombay) and 562 km from Hyderabad. The climate of Bangalore is moderate and pleasant. Summers are mild (April-June) and winters are cool (October-February). The city experiences southwestern monsoon rains in June-August.
+    </p>
+    <div id="name1" >
+        <h2>1.shopping</h2>
+        <span>    
+            <img src="jayanagar.jpg" alt="image2" width="500px" height="250px"  \>
+            <aside class="aside">
+                <p>banglore is the best place for shopping. if offers both street and high street shopping experiences. there are many places like church street,jayanagar,chickpete,
+                commercial street gandhi nagar 
+                </p>
+                <a href="shopping.html"  target="_blank"class="shopping1">click here</a>
+            </aside>
+            <br>
+        </span>
+        <h2>2.malls</h2>
+        <span>
+            <img src="malls.jpg" alt="image2" width="500px" height="250px"  \>
+            <aside class="aside">
+                <p>there are many malls in bengaluru including mantri mall,forum mall,oreon mall,
+                    lulu mall .there are around 20 malls in bengaluru
+                </p>
+                <a href="malls.html"target="_blank" class="shopping1">click here</a>  
+            </aside>
+        </span>
+        <h2>3.temples</h2>
+        <span>
+            <img src="temples.jpg" alt="image2" width="500px" height="250px"  \>
+            <aside class="aside">
+                <p>
+                    there are more than 1000 teples in banglore . the famous temples are sri someshwara swami temple, shrungagiri shri shanmukha swami gudi, iskon temple, sri bhanashankari temple.
+                </p>
+                <a href="temple.html"target="_blank" class="shopping1">click here</a>  
+            </aside>
+        </span>
+        <h2>4.trekking</h2>
+        <span>
+            <img src="trecking.jpg" alt="image2" width="500px" height="250px"  \>
+            <aside class="aside">
+                <p>
+                    there are many trekking places in bangalore like ramanagra, nandi hills,skandagiri,antharagange,makalidurga,channarayana durga,kunti betta 
+                </p>
+                <a href="malls.html"target="_blank" class="shopping1">click here</a>  
+            </aside>
+        </span>
+        <h2>5.attractive places</h2>
+        <span>
+            <img src="image1.jpg" alt="image2" width="500px" height="250px"  \>
+            <aside class="aside">
+                <p>
+                    there are many attractive places in bangalore like parks cubbon park, lalbagh botanical garden, and many places to visit like banglore palace, vidhaan soudha.
+                </p>
+                <a href="malls.html"target="_blank" class="shopping1">click here</a>  
+            </aside>
+        </span>
+    </div>
+</body>
+</html>
